@@ -1,0 +1,9 @@
+<div class="box">
+    <form class="" (submit)="onWikiSearch($event)">
+        <input 
+                placeholder="Enter search term please"
+                class="input"
+                type="text" 
+               (input)="term = $event.target.value">
+    </form>
+</div>
